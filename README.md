@@ -5,7 +5,7 @@ A small package to format dates and durations.
 ## Installation
 
 ```bash
-npm i instant-js
+npm i @coalaura/instant-js
 ```
 
 ### Usage (durations)

@@ -1,6 +1,6 @@
 {
-	"name": "instant-js",
-	"version": "1.0.0",
+	"name": "@coalaura/instant-js",
+	"version": "1.0.1",
 	"description": "A small package to format dates and durations.",
 	"main": "main.js",
 	"type": "module",
