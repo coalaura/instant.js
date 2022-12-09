@@ -11,7 +11,7 @@ npm i @coalaura/instant-js
 ### Usage (durations)
 
 ```javascript
-import instant from "instant-js";
+import instant from "@coalaura/instant-js";
 
 // Either use seconds
 console.log(instant.ago(12345678)); // 4 months ago
@@ -25,7 +25,7 @@ console.log(instant.ago(-14, "minutes")) // since 14 minutes
 ### Usage (dates)
 
 ```javascript
-import instant from "instant-js";
+import instant from "@coalaura/instant-js";
 
 // Format a timestamp in your timezone
 const myDate = instant.unix(1670610204);
