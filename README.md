@@ -5,13 +5,13 @@ A small package to format dates and durations.
 ## Installation
 
 ```bash
-npm i @coalaura/instant-js
+npm i @coalaura/instant.js
 ```
 
 ### Usage (durations)
 
 ```javascript
-import instant from "@coalaura/instant-js";
+import instant from "@coalaura/instant.js";
 
 // Either use seconds
 console.log(instant.ago(12345678)); // 4 months ago
@@ -25,15 +25,17 @@ console.log(instant.ago(-14, "minutes")) // since 14 minutes
 ### Usage (dates)
 
 ```javascript
-import instant from "@coalaura/instant-js";
+import instant from "@coalaura/instant.js";
 
 // Format a timestamp in your timezone
 const myDate = instant.unix(1670610204);
 
-console.log(myDate.format("d.m.Y - h:i:s a P")); // 09.12.2022 - 07:23:24 pm +01:00
+console.log(myDate.format("d.m.Y - h:i:s a P"));
+// 09.12.2022 - 07:23:24 pm +01:00
 
 // Or force it to be UTC
-console.log(myDate.utc().format("d.m.Y - h:i:s a P")); // 09.12.2022 - 06:23:24 pm +00:00
+console.log(myDate.utc().format("d.m.Y - h:i:s a P"));
+// 09.12.2022 - 06:23:24 pm +00:00
 ```
 
 |Format Character|Description|Example returned values|
