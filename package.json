@@ -1,5 +1,5 @@
 {
-	"name": "instant.js",
+	"name": "instant-js",
 	"version": "1.0.0",
 	"description": "A small package to format dates and durations.",
 	"main": "main.js",
