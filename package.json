@@ -1,0 +1,19 @@
+{
+	"name": "instant-js",
+	"version": "1.0.0",
+	"description": "A small package to format dates and durations.",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"test": "mocha"
+	},
+	"keywords": [
+		"date",
+		"time"
+	],
+	"author": "coalaura",
+	"license": "ISC",
+	"devDependencies": {
+		"mocha": "^10.1.0"
+	}
+}
